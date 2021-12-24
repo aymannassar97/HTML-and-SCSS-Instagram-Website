@@ -1,0 +1,36 @@
+.name-row {
+  width: 100%;
+  padding: 17px;
+  @extend %flex-items;
+  border-bottom: 1px solid #dbdbdb;
+
+  .active-story {
+    .img-story {
+      @include circle(44px, 50%);
+      height: 44px;
+      img {
+        @include circle(40px, 50%);
+      }
+    }
+  }
+
+  .info {
+    flex: 1;
+    margin-left: 18px;
+    :first-child,
+    :last-child {
+      display: block;
+      width: fit-content;
+    }
+    :first-child {
+      color: #393939;
+      font-size: $mfont;
+      margin-bottom: 5px;
+    }
+    :last-child {
+      color: #979797;
+      font-size: $sfont;
+      cursor: auto;
+    }
+  }
+}

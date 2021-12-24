@@ -1,0 +1,74 @@
+.sidebar {
+  width: 300px;
+  top: 110px;
+  position: sticky;
+  align-self: flex-start;
+  @include responsive(max-desktop) {
+    display: none;
+  }
+
+  .name-row {
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 0;
+    border: none;
+    img {
+      @include circle(60px, 50%);
+    }
+    .info {
+      font-size: $mfont;
+      a {
+        color: #333;
+      }
+      span {
+        color: #acacac;
+      }
+    }
+  }
+  span {
+    display: block;
+    color: $followcolor;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+}
+
+.suggestions {
+  @extend %flex-center;
+  margin-bottom: 20px;
+  p {
+    font: {
+      size: $mfont + 1;
+      weight: 500;
+    }
+    color: #939393;
+  }
+  span {
+    color: #262626;
+    font-weight: normal;
+  }
+}
+
+.Follow-suggestions {
+  .name-row {
+    margin: 0 0 14px 0;
+    padding: 0 0 0 10px;
+
+    img {
+      width: 35px;
+    }
+    .info {
+      a {
+        color: #4b4b4b;
+        &:hover {
+          text-decoration: underline; 
+        }
+      }
+      span {
+        font-weight: 500;
+      }
+    }
+  }
+}
+

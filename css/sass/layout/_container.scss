@@ -1,0 +1,10 @@
+.container {
+  max-width: 975px;
+  padding: 0 20px;
+  @extend %flex-center;
+  margin: auto;
+  background: $baccolor;
+  @include responsive(phone) {
+    padding: 0;
+  }
+}

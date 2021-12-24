@@ -1,0 +1,75 @@
+.header {
+  height: 60px;
+  background: $color;
+  border-bottom: 1px solid #dbdbdb;
+  .container-head {
+    max-width: 975px;
+    padding: 0 20px;
+    margin: 0 auto;
+    @extend %flex-center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    @include responsive(phone) {
+      flex-direction: column;
+    }
+
+    .logo {
+      position: relative;
+      margin: {
+        right: 20px;
+        top: 7px;
+      }
+    }
+
+    .search {
+      @extend %flex-items;
+      background: $baccolor;
+      margin: 0 10px;
+      border: 1px solid $secondarycolor;
+      height: 36px;
+      min-width: 125px;
+      @include circle(270px, 4px);
+      overflow: hidden;
+      position: relative;
+      flex: 0 1 auto;
+      @include responsive(phone) {
+        display: none;
+      }
+
+      .fa-search {
+        position: absolute;
+        top: 49%;
+        transform: translateY(-50%);
+        left: 10px;
+        color: $secondarycolor;
+        font-size: $sfont;
+      }
+      input {
+        border: 0;
+        outline: none;
+        width: 100%;
+        padding: 5px 18px 5px 40px;
+        background: none;
+        font-size: 13px;
+        height: 100%;
+        &::placeholder {
+          opacity: 0.2;
+        }
+        &:focus + .fa-times-circle {
+          display: block;
+        }
+      }
+      .fa-times-circle {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 5px;
+        padding: 5px;
+        color: $secondarycolor;
+        font-size: $lfont;
+        display: none;
+      }
+    }
+  }
+}

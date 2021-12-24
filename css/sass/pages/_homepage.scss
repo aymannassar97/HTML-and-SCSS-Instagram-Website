@@ -1,0 +1,193 @@
+.pose-container {
+  background: #ffffff;
+  @include border-radius (4px);
+  border: 1px solid #dbdbdb;
+  margin-bottom: 25px;
+
+  .name-row {
+    .info {
+      .name {
+        color: #393939;
+        font-size: $mfont;
+        &:hover {
+          text-decoration: underline; 
+        }
+      }
+      .plase {
+        font-size: $sfont;
+        color: #979797;
+        cursor: pointer;
+      }
+    }
+    img {
+      @include circle(40px, 50%);
+    }
+    .fa-ellipsis-h {
+      color: #262626;
+      padding: 10px;
+      cursor: pointer;
+    }
+  }
+}
+
+.post-img {
+  width: 100%;
+  position: relative;
+  img {
+    width: 100%;
+  }
+  .change-background {
+    color: #eae1db;
+    top: 50%;
+  }
+}
+
+.interactive-icons {
+  width: 100%;
+  padding: 0 15px;
+  position: relative;
+  .bullets {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    .active {
+      background: $followcolor;
+    }
+    span {
+      margin-right: 1px;
+      display: inline-block;
+      height: 8px;
+      @include circle(8px, 50%);
+      background-color: #a8a8a8;
+    }
+  }
+}
+
+.sharing {
+  margin: 8px 0 15px;
+  @extend %flex-center;
+  ul {
+    display: block;
+    li {
+      margin-right: 2px;
+      display: inline-block;
+      i {
+        font-size: 24px;
+        padding: 6px;
+        color: #262626;
+      }
+    }
+  }
+  .save {
+    display: block;
+    i {
+      display: inline-block;
+      font-size: 24px;
+      color: #262626;
+      padding: 6px;
+    }
+  }
+}
+
+.more-info {
+  width: 100%;
+  padding-left: 22px;
+  margin-bottom: 20px;
+  .likes {
+    margin-bottom: 10px;
+    @extend %flex-items;
+    img {
+      @include circle(25px, 50%);
+      margin-right: 8px;
+    }
+    p {
+      font-size: 13px;
+      color: #555;
+      span {
+        color: #555555;
+        font-weight: 600;
+      }
+    }
+    #point {
+      cursor: pointer;
+      &:hover {
+        text-decoration: underline
+      }
+    }
+  }
+
+  .caption {
+    @extend %flex-items;
+    margin-bottom: 6px;
+    a {
+      color: #404040;
+      font-weight: bold;
+      font-size: $mfont;
+      margin-right: 5px;
+    }
+    p {
+      font-size: $mfont;
+      color: #555;
+      line-height: 1.5;
+      max-width: 400px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    span {
+      color: #a3a3a3;
+      cursor: pointer;
+    }
+  }
+  
+  .comments {
+    font-size: $mfont;
+    color: #8e8e8e;
+  }
+  time {
+    display: block;
+    font-size: $sfont;
+    color: #8e8e8e;
+    margin-top: 10px;
+  }
+}
+
+.comment {
+  border-top: 1px solid #dbdbdb;
+  width: 100%;
+  padding: 8px 22px;
+  @extend %flex-items;
+  .fa-smile {
+    font-size: 25px;
+    color: #343434;
+    padding: 5px 15px 5px 0;
+    cursor: pointer;
+  }
+  textarea {
+    flex: 1;
+    height: 35px;
+    outline: none;
+    border: 0;
+    resize: none;
+    overflow: hidden;
+    padding-top: 10px;
+    &::placeholder {
+      font-size: $mfont;
+    }
+  }
+  input {
+    font: {
+      size:  $mfont + 1;
+      weight: 600;
+    }
+    color: $followcolor;
+    margin: 2px 0;
+    background: none;
+    outline: none;
+    border: 0;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+}
+

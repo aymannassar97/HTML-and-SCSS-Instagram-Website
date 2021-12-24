@@ -1,0 +1,18 @@
+.active-story {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  padding: 2px;
+  @include border-radius (50%);
+  position: relative;
+  .img-story {
+    display: block;
+    background: white;
+    padding: 2px;
+    height: 60px;
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
