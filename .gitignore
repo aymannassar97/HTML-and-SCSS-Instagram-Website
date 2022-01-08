@@ -1,5 +1,5 @@
 # Folders to ignore
 /node_modules/
 /webfonts/
-
+/tests/
 /test.css/
