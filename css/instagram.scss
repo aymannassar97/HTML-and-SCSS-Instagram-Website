@@ -1,26 +1,26 @@
-@import "helpers/variables";
-@import "helpers/mixins";
-@import "helpers/extend";
+@import "../scss/helpers/variables";
+@import "../scss/helpers/mixins";
+@import "../scss/helpers/extend";
 
 
 
-@import "layout/container";
-@import "layout/header";
-@import "layout/nav";
-@import "layout/sidebar";
-@import "layout/footer";
+@import "../scss/layout/container";
+@import "../scss/layout/header";
+@import "../scss/layout/nav";
+@import "../scss/layout/sidebar";
+@import "../scss/layout/footer";
 
 
-@import "components/info-img";
-@import "components/active-story";
+@import "../scss/components/info-img";
+@import "../scss/components/active-story";
 
 
 
-@import "pages/globalpage";
-@import "pages/homepage";
-@import "pages/slider-story";
-@import "pages/about";
-// @import "/scss/";
+@import "../scss/pages/globalpage";
+@import "../scss/pages/homepage";
+@import "../scss/pages/slider-story";
+@import "../scss/pages/about";
+// @import "../scss/pages/about";
 
 
 
