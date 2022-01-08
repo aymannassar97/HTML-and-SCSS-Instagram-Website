@@ -13,7 +13,7 @@
         "../scss/layout/_footer.scss",
         "../scss/components/_info-img.scss",
         "../scss/components/_active-story.scss",
-        "../scss/pages/_main.scss",
+        "../scss/global/_main.scss",
         "../scss/pages/_homepage.scss",
         "../scss/pages/_slider-story.scss",
         "../scss/pages/_about.scss"
