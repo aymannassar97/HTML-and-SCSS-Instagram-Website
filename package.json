@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/aymannassar97/HTML-and-SCSS-Instagram-Website/issues"
   },
-  "homepage": "https://github.com/aymannassar97/HTML-and-SCSS-Instagram-Website#readme"
+  "homepage": "https://github.com/aymannassar97/HTML-and-SCSS-Instagram-Website#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "normalize.css": "^8.0.1",
+    "webfonts": "^0.1.1"
+  }
 }
