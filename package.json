@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/aymannassar97/HTML-and-SCSS-Instagram-Website/issues"
   },
-  "homepage": "https://github.com/aymannassar97/HTML-and-SCSS-Instagram-Website#readme"
+  "homepage": "https://github.com/aymannassar97/HTML-and-SCSS-Instagram-Website#readme",
+  "dependencies": {
+    "normalize": "^0.3.1",
+    "webfonts": "^0.1.1"
+  }
 }
