@@ -1,0 +1,19 @@
+{
+  "name": "html-and-scss-instagram-website",
+  "version": "1.0.0",
+  "description": "\"website for insta\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aymannassar97/HTML-and-SCSS-Instagram-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aymannassar97/HTML-and-SCSS-Instagram-Website/issues"
+  },
+  "homepage": "https://github.com/aymannassar97/HTML-and-SCSS-Instagram-Website#readme"
+}
