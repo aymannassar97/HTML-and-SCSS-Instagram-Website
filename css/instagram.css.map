@@ -16,7 +16,7 @@
         "../scss/components/_nav.scss",
         "../scss/components/_stories-card.scss",
         "../scss/global/_main.scss",
-        "../scss/pages/_homepage.scss"
+        "../scss/pages/_home-page.scss"
     ],
     "names": [],
     "file": "instagram.css"
