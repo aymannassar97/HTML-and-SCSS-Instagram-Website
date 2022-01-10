@@ -18,6 +18,7 @@
   "homepage": "https://github.com/aymannassar97/HTML-and-SCSS-Instagram-Website#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
+    "icomoon": "^1.0.0",
     "normalize.css": "^8.0.1",
     "webfonts": "^0.1.1"
   }
