@@ -10,7 +10,7 @@
         "../scss/layout/_header.scss",
         "../scss/layout/_sidebar.scss",
         "../scss/components/_info-img.scss",
-        "../scss/components/_active-story.scss",
+        "../scss/components/_active-story-card.scss",
         "../scss/components/_footer.scss",
         "../scss/components/_owner.scss",
         "../scss/components/_nav.scss",
