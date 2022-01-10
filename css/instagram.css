@@ -1,4 +1,4 @@
-.header .container-head .search, .name-row, .main-nav ul, .more-info .likes, .more-info .caption, .comment, .main-content .story, .main-content .story .slides {
+.header .container-head .search, .name-row, .main-nav ul, .main-content .story, .main-content .story .slides, .more-info .likes, .more-info .caption, .comment {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -346,6 +346,83 @@
   top: 3px;
 }
 
+.main-content {
+  max-width: 600px;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .main-content {
+    margin: 0 auto;
+  }
+}
+
+.main-content .story {
+  height: 111px;
+  width: 100%;
+  border-radius: 4px;
+  padding: 0 0 0 18px;
+  margin: 35px auto 20px;
+  background: #ffffff;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #dbdbdb;
+}
+
+@media (max-width: 767px) {
+  .main-content .story {
+    margin-top: 0;
+  }
+}
+
+.main-content .story .slides {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 13px;
+}
+
+.main-content .story .slides .img-story {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.main-content .story .slides .img-story img {
+  width: 56px;
+  border-radius: 50%;
+}
+
+.main-content .story .slides .name {
+  color: #262626;
+  font-size: 11px;
+  max-width: 65px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 8px;
+}
+
+.change-background {
+  font-size: 20px;
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.fa-chevron-circle-right {
+  right: 10px;
+}
+
+.fa-chevron-circle-left {
+  left: 10px;
+  display: none;
+}
+
 * {
   -webkit-box-sizing: border-box;
   -o-box-sizing: border-box;
@@ -599,82 +676,5 @@ a {
   border: 0;
   opacity: 0.5;
   cursor: pointer;
-}
-
-.main-content {
-  max-width: 600px;
-  width: 100%;
-}
-
-@media (max-width: 991px) {
-  .main-content {
-    margin: 0 auto;
-  }
-}
-
-.main-content .story {
-  height: 111px;
-  width: 100%;
-  border-radius: 4px;
-  padding: 0 0 0 18px;
-  margin: 35px auto 20px;
-  background: #ffffff;
-  overflow: hidden;
-  position: relative;
-  border: 1px solid #dbdbdb;
-}
-
-@media (max-width: 767px) {
-  .main-content .story {
-    margin-top: 0;
-  }
-}
-
-.main-content .story .slides {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-right: 13px;
-}
-
-.main-content .story .slides .img-story {
-  width: 60px;
-  border-radius: 50%;
-}
-
-.main-content .story .slides .img-story img {
-  width: 56px;
-  border-radius: 50%;
-}
-
-.main-content .story .slides .name {
-  color: #262626;
-  font-size: 11px;
-  max-width: 65px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  margin-top: 8px;
-}
-
-.change-background {
-  font-size: 20px;
-  color: #fff;
-  position: absolute;
-  top: 40%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  z-index: 1;
-  cursor: pointer;
-}
-
-.fa-chevron-circle-right {
-  right: 10px;
-}
-
-.fa-chevron-circle-left {
-  left: 10px;
-  display: none;
 }
 /*# sourceMappingURL=instagram.css.map */
