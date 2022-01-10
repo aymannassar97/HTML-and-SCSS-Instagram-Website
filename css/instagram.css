@@ -1,4 +1,4 @@
-.header .container-head .search, .main-nav ul, .name-row, .more-info .likes, .more-info .caption, .comment, .main-content .story, .main-content .story .slides {
+.header .container-head .search, .name-row, .main-nav ul, .more-info .likes, .more-info .caption, .comment, .main-content .story, .main-content .story .slides {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -134,26 +134,6 @@
   color: #dbdbdb;
   font-size: 18px;
   display: none;
-}
-
-@media (max-width: 767px) {
-  .main-nav ul {
-    padding-bottom: 10px;
-  }
-}
-
-.main-nav ul i {
-  font-size: 24px;
-  margin-right: 20px;
-  cursor: pointer;
-}
-
-.main-nav ul img {
-  width: 24px;
-  border-radius: 50%;
-  cursor: pointer;
-  position: relative;
-  top: 3px;
 }
 
 .sidebar {
