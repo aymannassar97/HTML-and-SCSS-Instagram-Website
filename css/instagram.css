@@ -104,25 +104,25 @@
 }
 
 .header .container-head .search input::-webkit-input-placeholder {
-  color: #181818;
+  color: #8e8e8e;
   font-size: 16px;
   font-weight: 100;
 }
 
 .header .container-head .search input:-ms-input-placeholder {
-  color: #181818;
+  color: #8e8e8e;
   font-size: 16px;
   font-weight: 100;
 }
 
 .header .container-head .search input::-ms-input-placeholder {
-  color: #181818;
+  color: #8e8e8e;
   font-size: 16px;
   font-weight: 100;
 }
 
 .header .container-head .search input::placeholder {
-  color: #181818;
+  color: #8e8e8e;
   font-size: 16px;
   font-weight: 100;
 }
@@ -284,14 +284,28 @@
   background: white;
   padding: 2px;
   height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .active-story .img-story img {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .about {
@@ -469,6 +483,7 @@ a {
 
 .pose-container .name-row .info .name {
   color: #393939;
+  font-weight: 500;
   font-size: 14px;
 }
 
@@ -478,12 +493,22 @@ a {
 
 .pose-container .name-row .info .plase {
   font-size: 12px;
-  color: #979797;
+  color: #444;
   cursor: pointer;
 }
 
+.pose-container .name-row .img-story {
+  width: 39px;
+  height: 39px;
+}
+
+.pose-container .name-row .img-story img {
+  width: 35px;
+  border-radius: 50%;
+}
+
 .pose-container .name-row img {
-  width: 40px;
+  width: 35px;
   border-radius: 50%;
 }
 

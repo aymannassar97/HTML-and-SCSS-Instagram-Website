@@ -8,6 +8,7 @@
     .info {
       .name {
         color: #393939;
+        font-weight: 500;
         font-size: $mfont;
         &:hover {
           text-decoration: underline; 
@@ -15,12 +16,19 @@
       }
       .plase {
         font-size: $sfont;
-        color: #979797;
+        color: #444;
         cursor: pointer;
       }
     }
+    .img-story {
+      width: 39px;
+      height: 39px;
+      img {
+        @include circle(35px, 50%);
+      }
+    }
     img {
-      @include circle(40px, 50%);
+      @include circle(35px, 50%);
     }
     .fa-ellipsis-h {
       color: #262626;
