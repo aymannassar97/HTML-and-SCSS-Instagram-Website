@@ -1,5 +1,5 @@
 .main-content {
-  max-width: 600px;
+  max-width: 615px;
   width: 100%;
   @include responsive(max-desktop) {
     margin: 0 auto;
@@ -9,7 +9,7 @@
     height: 111px;
     @include circle(100%, 4px);
     padding: 0 0 0 18px;
-    margin: 35px auto 20px;
+    margin: 40px auto 20px;
     background: #ffffff; 
     @extend %flex-items;
     overflow: hidden;
@@ -22,7 +22,7 @@
     .slides {
       @extend %flex-items;
       flex-direction: column;
-      margin-right: 13px;
+      margin-right: 15px;
 
       .img-story {
         @include circle(60px, 50%);
@@ -33,7 +33,7 @@
       .name {
         color: #262626;
         font-size: $sfont - 1;
-        max-width: 65px;
+        max-width: 68px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
