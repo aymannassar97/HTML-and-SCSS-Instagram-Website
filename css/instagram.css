@@ -104,23 +104,27 @@
 }
 
 .header .container-head .search input::-webkit-input-placeholder {
-  color: #4d4c4c;
+  color: #181818;
   font-size: 16px;
+  font-weight: 100;
 }
 
 .header .container-head .search input:-ms-input-placeholder {
-  color: #4d4c4c;
+  color: #181818;
   font-size: 16px;
+  font-weight: 100;
 }
 
 .header .container-head .search input::-ms-input-placeholder {
-  color: #4d4c4c;
+  color: #181818;
   font-size: 16px;
+  font-weight: 100;
 }
 
 .header .container-head .search input::placeholder {
-  color: #4d4c4c;
+  color: #181818;
   font-size: 16px;
+  font-weight: 100;
 }
 
 .header .container-head .search input:focus + .fa-times-circle {
@@ -335,10 +339,14 @@
   }
 }
 
-.main-nav ul i {
-  font-size: 24px;
-  margin-right: 20px;
+.main-nav ul li i {
+  font-size: 23px;
+  margin-right: 22px;
   cursor: pointer;
+}
+
+.main-nav ul li .icon-plus-square-o {
+  font-size: 27px;
 }
 
 .main-nav ul img {
@@ -346,7 +354,7 @@
   border-radius: 50%;
   cursor: pointer;
   position: relative;
-  top: 3px;
+  top: 2px;
 }
 
 .main-content {
