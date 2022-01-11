@@ -220,7 +220,8 @@
 }
 
 .Follow-suggestions .name-row .info a {
-  color: #4b4b4b;
+  color: #484848;
+  font-weight: 400;
 }
 
 .Follow-suggestions .name-row .info a:hover {
@@ -228,7 +229,9 @@
 }
 
 .Follow-suggestions .name-row .info span {
-  font-weight: 500;
+  font-weight: 300;
+  font-size: 12px;
+  color: #8e8e8e;
 }
 
 .name-row {

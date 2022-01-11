@@ -63,13 +63,16 @@
     }
     .info {
       a {
-        color: #4b4b4b;
+        color: #484848;
+        font-weight: 400;
         &:hover {
           text-decoration: underline; 
         }
       }
       span {
-        font-weight: 500;
+        font-weight: 300;
+        font-size: $sfont;
+        color: #8e8e8e;
       }
     }
   }
