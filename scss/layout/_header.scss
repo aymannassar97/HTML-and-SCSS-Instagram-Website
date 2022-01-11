@@ -54,8 +54,9 @@
         font-size: 13px;
         height: 100%;
         &::placeholder {
-          color: #4d4c4c;
+          color: #181818;
           font-size: 16px;
+          font-weight: 100;
         }
         &:focus + .fa-times-circle {
           display: block;
