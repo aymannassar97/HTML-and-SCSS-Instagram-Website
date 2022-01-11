@@ -20,7 +20,7 @@
 }
 
 .container {
-  max-width: 975px;
+  max-width: 990px;
   padding: 0 20px;
   margin: auto;
   background: #fafafa;
@@ -39,7 +39,7 @@
 }
 
 .header .container-head {
-  max-width: 975px;
+  max-width: 990px;
   padding: 0 20px;
   margin: 0 auto;
   position: relative;
